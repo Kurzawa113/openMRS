@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.923">
+    <testcase classname="OpenMRS login" name="login to the application as admin" time="3.791">
+        <system-out><![CDATA[Given I am on the OpenMRS login page........................................passed
+When I choose location as Registration Desk.................................passed
+When I login using "admin" and "Admin123"...................................passed
+Then I should Logged in as admin at registration desk.......................passed
+And I should see admin on the top...........................................passed
+And My Location should be Registration desk.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
